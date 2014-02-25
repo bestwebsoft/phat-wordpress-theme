@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: phat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-03 12:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <social@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tag.php:12
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архив тега: %s"
+
+#: page.php:20
+#: loop.php:40
+#: single.php:20
+msgid "Posted on "
+msgstr "Опубликовано "
+
+#: page.php:21
+#: loop.php:41
+#: single.php:21
+msgid " of "
+msgstr " "
+
+#: page.php:22
+#: loop.php:42
+#: single.php:22
+msgid "by "
+msgstr "автором "
+
+#: page.php:29
+#: image.php:44
+#: loop.php:58
+#: single.php:30
+msgid "Pages: "
+msgstr "Страницы"
+
+#: page.php:36
+#: page.php:38
+#: image.php:50
+#: image.php:52
+#: loop.php:69
+#: loop.php:71
+#: single.php:36
+#: single.php:38
+msgid "Edit"
+msgstr "Редактировать"
+
+#: archive.php:14
+msgid "Daily Archives:"
+msgstr "Архив за день:"
+
+#: archive.php:16
+msgid "Monthly Archives:"
+msgstr "Архив за месяц:"
+
+#: archive.php:18
+msgid "Yearly Archives:"
+msgstr "Архив за год: "
+
+#: archive.php:20
+msgid "Blog Archives:"
+msgstr "Архив:"
+
+#: footer.php:12
+msgid "Created by"
+msgstr "Создано"
+
+#: footer.php:14
+msgid "and "
+msgstr "и "
+
+#: footer.php:15
+msgid "WordPress,"
+msgstr "ВордПресс,"
+
+#: image.php:20
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: image.php:21
+msgid "of"
+msgstr " "
+
+#: image.php:22
+msgid "by"
+msgstr "автором "
+
+#: image.php:24
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Разрешение файла %s пикселей"
+
+#: image.php:27
+msgid "Link to full-size image"
+msgstr "Ссылка на полноразмерное изображение"
+
+#: image.php:34
+msgid "Click to full-size image: "
+msgstr "Полноразмерное изображение: "
+
+#: image.php:37
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Предыдущее изображение"
+
+#: image.php:38
+msgid "Next Image &raquo;"
+msgstr "Следующее изображение &raquo;"
+
+#: image.php:61
+#: single.php:47
+msgid "Previous entry"
+msgstr "Предыдущая запись"
+
+#: image.php:62
+#: single.php:48
+msgid "Next entry"
+msgstr "Следующая запись"
+
+#: functions.php:61
+msgid "Phat_Sidebar"
+msgstr "Phat_Sidebar"
+
+#: functions.php:64
+msgid "Sidebar Menu"
+msgstr "Меню сайдбара"
+
+#: functions.php:126
+msgid "Read more"
+msgstr "Читать далее"
+
+#: functions.php:148
+msgid "Enter your name here*"
+msgstr "Введите своё имя*"
+
+#: functions.php:150
+msgid "Enter your email here*"
+msgstr "Введите свой email*"
+
+#: functions.php:152
+msgid "Website"
+msgstr "Сайт"
+
+#: functions.php:154
+#, php-format
+msgid "Required fields are marked %s"
+msgstr "Обязательные поля помечены %s"
+
+#: functions.php:159
+msgid "Enter your comment here"
+msgstr "Введите комментарий"
+
+#: functions.php:160
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a> чтобы комментировать"
+
+#: functions.php:161
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Вы зашли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из этого аккаунта\">Выйти?</a>"
+
+#: functions.php:162
+msgid "Your email address will not be published."
+msgstr "Ваш email адрес не будет опублекован"
+
+#: functions.php:166
+msgid "Leave a Reply"
+msgstr "Оставить комментарий"
+
+#: functions.php:167
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий к %s"
+
+#: functions.php:168
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: functions.php:169
+msgid "Submit"
+msgstr "Отправить"
+
+#: functions.php:234
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:235
+msgid "Category:"
+msgstr "Категория:"
+
+#: functions.php:236
+msgid "Results for:"
+msgstr "Результаты поиска для:"
+
+#: functions.php:237
+msgid "Tags:"
+msgstr "Тег:"
+
+#: functions.php:238
+msgid "Autors posts:"
+msgstr "Посты автора:"
+
+#: functions.php:239
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: functions.php:343
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: searchform.php:9
+#: searchform.php:10
+msgid "Enter search keyword"
+msgstr "Введите ключевое слово"
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: search.php:25
+msgid "Sorry, unfortunately, we could not find the requested querry."
+msgstr "Извините, по вашему запросу ничего не найдено"
+
+#: search.php:26
+msgid "You should try to find something else"
+msgstr "Может попробуете поискать что-то другое?"
+
+#: category.php:12
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Архив категории: %s"
+
+#: loop.php:18
+#: 404.php:11
+msgid "404: Page not found"
+msgstr "404: Страница не найдена"
+
+#: loop.php:21
+msgid "Sorry, there is no post yet."
+msgstr "Извините, здесь ещё нет постов"
+
+#: loop.php:22
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr "Может попробуем поиск?"
+
+#: loop.php:42
+#: single.php:22
+msgid "in "
+msgstr "в "
+
+#: loop.php:63
+msgid "Top"
+msgstr "Вверх"
+
+#: loop.php:81
+msgid "Previous entrys"
+msgstr "Предыдущие статьи"
+
+#: loop.php:82
+msgid "Next entrys"
+msgstr "Cледующие статьи"
+
+#: comments.php:22
+#: comments.php:32
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:23
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: comments.php:24
+#: comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Комментирование запрещено"
+
+#: 404.php:12
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr "Извините, страница не найдена"
+
+#~ msgid "One comment on &ldquo;%2$s&rdquo;"
+
+#~ msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "Один комментарий к &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+#~ msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+#~ msgstr[3] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "смотреть все посты в %s"
+
+#~ msgid "Download high resolution image"
+#~ msgstr "Загрузить изображение в высоком разрешении"
+
+#~ msgid "Sorry, nothing found."
+#~ msgstr "Извините, ничего не найдено"
+
+#~ msgid "Image"
+#~ msgstr "Изображение"
+
+#~ msgid "hi"
+#~ msgstr "ку"
+
+#~ msgid "recent post"
+#~ msgstr "последние публикации"
+
+#~ msgid "recent comments"
+#~ msgstr "последние комментарии"
+
+#~ msgid "on"
+#~ msgstr "на"
+
+#, fuzzy
+#~ msgid "archives"
+#~ msgstr "Архив за день"
+
+#~ msgid "meta"
+#~ msgstr "мета"
+
+#~ msgid "Daily Archives: <span>%s</span>"
+#~ msgstr "Архивы дня: <span>%s</span>"
+
+#~ msgid "Yearly Archives: <span>%s</span>"
+#~ msgstr "Архив года: <span>%s</span>"

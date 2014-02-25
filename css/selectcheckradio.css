@@ -1,0 +1,265 @@
+/* =selectBox styles
+-------------------------------------------------------------- */
+
+/* Dropdown control */
+.selectBox-dropdown {
+    min-width: 218px;
+    max-width: 310px;
+    position: relative;
+    border: solid 1px #ccd4d9;
+    line-height: 38px;
+    text-decoration: none;
+    text-align: left;
+    color: #48565f;
+    outline: none;
+    vertical-align: middle;
+ 	background: #f4f8fb;
+	background: -moz-linear-gradient(top, #f4f8fb 1%, #f4f8fb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f8fb), color-stop(100%, #f4f8fb));
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    cursor: default;
+}
+
+  	.entry-content form a:hover {
+  		color: #48565f !important;
+  	}
+
+.selectBox-dropdown:focus,
+.selectBox-dropdown:focus .selectBox-arrow {
+    border-color: #ccd4d9;
+    background: #fff;
+	background: -moz-linear-gradient(top, #fff 1%, #fff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #fff), color-stop(100%, #fff));
+}
+
+.selectBox-dropdown.selectBox-menuShowing-bottom {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.selectBox-dropdown.selectBox-menuShowing-top {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.selectBox-dropdown .selectBox-label {
+    padding: 2px 8px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #48565f;
+}
+
+.selectBox-dropdown:focus .selectBox-arrow {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 100%;
+    background: url('../images/new-arrow.png') 50% center no-repeat;
+    border-left: solid 1px #BBB;
+}
+
+.selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 100%;
+    background: url('../images/new-arrow.png') 50% center no-repeat;
+    border-left: solid 1px #BBB;
+}
+
+/* Dropdown menu */
+.selectBox-dropdown-menu {
+    position: absolute;
+    z-index: 99999;
+    min-height: 1em;
+    border: solid 1px #ccd4d9; /* should be the same border width as .selectBox-dropdown */
+    background: #FFF;
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Inline control */
+.selectBox-inline {
+    min-width: 150px;
+    outline: none;
+    border: solid 1px #BBB;
+    background: #FFF;
+    display: inline-block;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    overflow: visible;
+}
+
+.selectBox-inline:focus {
+    border-color: #666;
+}
+
+/* Options */
+.selectBox-options,
+.selectBox-options LI,
+.selectBox-options LI A {
+    list-style: none;
+    display: block;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}
+
+.selectBox-options.selectBox-options-top{
+    border-bottom:none;
+	margin-top:1px;
+	-moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.selectBox-options.selectBox-options-bottom{
+	border-top:none;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.selectBox-options LI A {
+    line-height: 36px;
+	font-size: 13px;
+    padding: 0 .5em;
+    white-space: pre-wrap;
+    overflow: hidden;
+    background: 6px center no-repeat;
+}
+
+.selectBox-options LI.selectBox-hover A {
+    background-color: #EEE;
+}
+
+.selectBox-options LI.selectBox-disabled A {
+    color: #888;
+    background-color: transparent;
+}
+
+.selectBox-options LI.selectBox-selected A {
+    background-color: #262d32;
+    color: #fff;
+}
+
+.selectBox-options .selectBox-optgroup {
+    color: #9a9a9a;
+    background: #EEE;
+	font-size: 13px;
+	line-height: 2.5;
+	padding: 0 0.5em;
+    white-space: pre-wrap;
+}
+
+/* Disabled state */
+.selectBox.selectBox-disabled {
+    color: #888 !important;
+}
+
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+    opacity: .5;
+    border-color: #666;
+}
+
+.selectBox-inline.selectBox-disabled {
+    color: #888 !important;
+}
+
+.selectBox-inline.selectBox-disabled .selectBox-options A {
+    background-color: transparent !important;
+}
+
+
+/* =Radio And Checkbox Start
+-------------------------------------------------------------- */
+
+.custom-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 0 16px 0;
+}
+
+.custom-radio,
+.custom-check {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -.15em; /* Adjust to for best fit */
+    margin: 0px 7px 0px -2px;   
+    width: 20px;
+    height: 20px;
+    background: url('../images/customRadioCheck.png') 0 0 no-repeat;
+    line-height: 36px;
+}
+
+.custom-radio { background-position: 0 -20px; }
+.custom-radio:hover { background-position: -41px -20px; }
+.custom-check:hover { background-position: -41px 0px; }
+.custom-check.focus { background-position: -21px 0; }
+.custom-radio.focus { background-position: -21px -20px; }
+.custom-check.checked { background-position: -61px 0; }
+.custom-radio.checked { background-position: -61px -20px; }
+.custom-check.checked.focus { background-position: -61px 0; }
+.custom-radio.checked.focus { background-position: -61px -20px; }
+
+
+/* =Custom File Input Styles
+-------------------------------------------------------------- */
+
+.NFI-wrapper {
+    width: 580px;
+    height: 63px;
+    background: #dae1e7;
+    margin-bottom: 9px;
+}
+
+.NFI-button {
+    width: 210px;
+    height: 42px;
+    margin: 10px 0 8px 10px;
+    border: 1px solid #ccd4d9;
+    background: url('../images/fileInputbuttonbackground.png') 0 0 no-repeat;
+    line-height: 41px;
+    padding-left: 8px
+}
+
+.NFI-filename {
+    width: 350px;
+    height: 42px;
+    background: #dae1e7;
+}
+
+.NFI-wrapper input[type='text'] {
+    width: 300px;
+    line-height: 44px;
+    height: 40px;
+    border: none;
+    background: #dae1e7;
+    margin: 8px 0 5px 9px !important;
+    color: #48565f;
+}
