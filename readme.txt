@@ -1,11 +1,11 @@
 === Phat ===
 Contributors: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=1&product_id=94
 Tags: black, white, gray, light, left-sidebar, fluid-layout, threaded-comments, sticky-post, translation-ready, featured-images
-Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 1.1.7
+Requires at least: 3.7
+Tested up to: 3.9
+Stable tag: 2.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,9 +25,9 @@ If you would like to create your own language pack or update the existing one, y
 2. 2 external fonts from google fonts repository have been used: Open Sans and Bevan.
 3. The "css" folder contains styles for jQuery plugins used in the theme and they are under MIT License.
 4. script.js has been created by BestWebsoft and it is under GPL v2 License. It includes the following jQuery plugins distributed under MIT license (http://www.opensource.org/licenses/mit-license.php): 
-	1) customRadioCheck: jQuery plugin to replace checkboxes and radio buttons
-		* plugin URI: https://github.com/elclanrs/jq-customRadioCheck
-		* Author: Cedric Ruiz.
+	1) iCheck v1.0.2: javascript plugin to replace checkboxes and radio buttons
+		* plugin URI: http://git.io/arlzeA
+		* Author: Damir Sultanov.
 		* License: MIT.
 	2) NiceFileInput.js jQuery Plugin: jQuery plugin which makes file inputs CSS styling an easy task.
 		* plugin URI: https://github.com/alterebro/jQuery.NiceFileInput.js
@@ -70,6 +70,16 @@ The Theme doesn't include any widgets. If you want to display a widget: please a
 There are no questions yet.
 
 == Changelog ==
+
+= V2.1 - 24.04.2014 =
+* Changed header styles, left padding refactored to percent instead of px
+* Changed left indentation of sidebar
+
+= V2.0 - 18.04.2014 =
+* The styles for <pre> tag in entry content div with paragraph tag inside were changed
+* Radiobutton and checkbox inputs were completely remade 
+* Screenshot was replaced
+* Back to top button was added
 
 = V1.1.7 - 10.02.2014 =
 * Added Author URI into readme.txt
@@ -129,19 +139,22 @@ There are no questions yet.
 
 == Upgrade Notice ==
 
+= V2.1 =
+Changed header styles, left padding refactored to percent instead of px. Changed left indentation of sidebar elements.
+
+= V2.0 =
+The styles for <pre> tag in entry content div with paragraph tag inside were changed. Radiobutton and checkbox inputs were completely remadeю Screenshot was replaced. Back to top button was added.
+
 = V1.1.7 =
 Added Author URI into readme.txt. Changed footer.php. Added note about incorporating code from Twentytwelve Theme into readme.txt
 
 = V1.1.6 =
-
 Corrected google fonts import. Few changes in header.php according to WordPress Codex. Corrected XFN profile link. Removed fluid-layout tag from style.css.
 
 = V1.1.5 =
-
 Changed header styles, added copyrights.
 
 = V1.1.4 =
-
 Fixed image in caption issue. Added min-width for .posts div for correct display content when browser window was shrunk. Changed footer text.
 
 = V1.1.3 =

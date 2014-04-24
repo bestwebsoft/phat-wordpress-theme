@@ -14,7 +14,10 @@
 						<?php _e( 'and powered by', 'phat' ); ?>
 						<a class='siteinfo' href="http://www.wordpress.org" target="_blank"><?php _e( 'WordPress,', 'phat' ); ?></a>
 						<?php echo ( date( 'Y' ) ); ?>
-					</p>				
+					</p>
+					<p id="back-top">
+						<a href="#top"><span></span></a>
+					</p>
 				</div> <!-- .siteinfo -->
 			</div> <!-- .footer -->
 		</footer> <!-- footer -->

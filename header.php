@@ -28,20 +28,20 @@
 <body <?php body_class(); ?>>
 	<div id='wrapper'>
 		<header class='masthead' role="banner">
-				<div class='logo'>
-					<div class='sitename'>
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" style="color:#<?php header_textcolor(); ?>">
-							<?php bloginfo( 'name' ); ?>
-						</a>
-					</div> <!-- .sitename -->
-					<div class='sitedescription'>
-						<p ><?php bloginfo( 'description' ); ?></p>
-					</div> <!-- .sitedescription -->
-				</div> <!-- .logo -->
-				<div class='breadcrumbs-container'>
-					<div class='breadcrumbs'>
-						<?php echo apply_filters( 'phat_breadcrumbs', 'phat_breadcrumbs' ); ?>
-					</div> <!-- .breadcrumbs -->
-				</div> <!-- .breadcrumbs-container -->
+			<div class='logo'>
+				<div class='sitename'>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" style="color:#<?php header_textcolor(); ?>">
+						<?php bloginfo( 'name' ); ?>
+					</a>
+				</div> <!-- .sitename -->
+				<div class='sitedescription'>
+					<p ><?php bloginfo( 'description' ); ?></p>
+				</div> <!-- .sitedescription -->
+			</div> <!-- .logo -->
+			<div class='breadcrumbs-container'>
+				<div class='breadcrumbs'>
+					<?php echo apply_filters( 'phat_breadcrumbs', 'phat_breadcrumbs' ); ?>
+				</div> <!-- .breadcrumbs -->
+			</div> <!-- .breadcrumbs-container -->
 		</header> <!-- .header -->
 		<div class='content'>

@@ -195,38 +195,66 @@
 }
 
 
-/* =Radio And Checkbox Start
+/* =Radio And Checkbox
 -------------------------------------------------------------- */
 
-.custom-label {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0 0 16px 0;
+.icheckbox_minimal,
+.iradio_minimal {
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	margin: 0 4px 0 0;
+	padding: 0;
+	width: 18px;
+	height: 18px;
+	background: url('../images/minimal.png') no-repeat;
+	border: none;
+	cursor: pointer;
 }
 
-.custom-radio,
-.custom-check {
-    vertical-align: middle;
-    display: inline-block;
-    position: relative;
-    top: -.15em; /* Adjust to for best fit */
-    margin: 0px 7px 0px -2px;   
-    width: 20px;
-    height: 20px;
-    background: url('../images/customRadioCheck.png') 0 0 no-repeat;
-    line-height: 36px;
+.icheckbox_minimal {
+	background-position: 0 0;
+}
+.icheckbox_minimal.hover {
+	background-position: -20px 0;
+}
+.icheckbox_minimal.checked {
+	background-position: -40px 0;
+}
+.icheckbox_minimal.disabled {
+	background-position: -60px 0;
+	cursor: default;
+}
+.icheckbox_minimal.checked.disabled {
+	background-position: -80px 0;
 }
 
-.custom-radio { background-position: 0 -20px; }
-.custom-radio:hover { background-position: -41px -20px; }
-.custom-check:hover { background-position: -41px 0px; }
-.custom-check.focus { background-position: -21px 0; }
-.custom-radio.focus { background-position: -21px -20px; }
-.custom-check.checked { background-position: -61px 0; }
-.custom-radio.checked { background-position: -61px -20px; }
-.custom-check.checked.focus { background-position: -61px 0; }
-.custom-radio.checked.focus { background-position: -61px -20px; }
+.iradio_minimal {
+	background-position: -100px 0;
+}
+.iradio_minimal.hover {
+	background-position: -120px 0;
+}
+.iradio_minimal.checked {
+	background-position: -140px 0;
+}
+.iradio_minimal.disabled {
+	background-position: -160px 0;
+	cursor: default;
+}
+.iradio_minimal.checked.disabled {
+	background-position: -180px 0;
+}
 
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	.icheckbox_minimal,
+	.iradio_minimal {
+		background-image: url('../images/minimal@2x.png');
+		-webkit-background-size: 200px 20px;
+		background-size: 200px 20px;
+	}
+}
 
 /* =Custom File Input Styles
 -------------------------------------------------------------- */

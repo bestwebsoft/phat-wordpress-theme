@@ -43,6 +43,12 @@ function phat_customplugs() {
 	if ( ! is_admin() ) {
 		wp_register_script( 'phat_scripts', get_template_directory_uri() . '/js/script.js', false );
 		wp_enqueue_script( 'phat_scripts' );
+		wp_register_script( 'phat_file_input', get_template_directory_uri() . '/js/file_input.js', false );
+		wp_enqueue_script( 'phat_file_input' );
+		wp_register_script( 'phat_icheck', get_template_directory_uri() . '/js/icheck.js', false );
+		wp_enqueue_script( 'phat_icheck' );
+		wp_register_script( 'phat_select_box', get_template_directory_uri() . '/js/select_box.js', false );
+		wp_enqueue_script( 'phat_select_box' );
 		wp_register_style( 'jqPluginStyle', get_stylesheet_directory_uri() . '/css/selectcheckradio.css' );
 		wp_enqueue_style( 'jqPluginStyle' );
         wp_register_style('phat_open_sans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600&subset=cyrillic,latin');
@@ -123,7 +129,9 @@ function phat_custom_background_cb() {
 body,
 .post-divider,
 .pagination,
-.search-results-background { <?php echo trim( $style ); ?> }
+.search-results-background {
+	<?php echo trim( $style ); ?>
+}
 </style>
 <?php
 }
@@ -327,14 +335,11 @@ function phat_breadcrumbs() {
 // Maintains propper layout with bwsGallery
 function phat_jsCrunch(){
 	print "<script type='text/javascript'>
-	(function($) {
-		$(document).ready(function(){
-		$('input[type=checkbox], input[type=radio]').customRadioCheck();
-		});
-		jQuery('.sidebar').insertBefore('#container');
-		jQuery('footer').insertAfter('#wrapper');
-		jQuery('#container').addClass('posts');
-	})(jQuery);
+	(function( $ ) {
+		$( '.sidebar' ).insertBefore( '#container' );
+		$( 'footer' ).insertAfter( '#wrapper' );
+		$( '#container' ).addClass( 'posts' );
+	})( jQuery );
 </script>";
 }
 function phat_wp_title( $title, $sep ){
@@ -367,20 +372,20 @@ function phat_ru_titles() {
 	endif;
 }
 // Is to make jquery work good
-add_action('init', 'phat_modify_jquery');
+add_action( 'init', 'phat_modify_jquery' );
 // connects my plugins & styles for them
-add_action('init', 'phat_customplugs');
+add_action( 'init', 'phat_customplugs' );
 // Hook into the 'after_setup_theme' action
 add_action( 'after_setup_theme', 'phat_setup' );
 // It's to set backgrounds for pagination & post-divider divs
-add_action ('wp_head', 'phat_custom_background_cb');
+add_action ('wp_head', 'phat_custom_background_cb' );
 // adds excerpt read more link 
-add_filter('the_excerpt', 'phat_excerpt_read_more_link');
+add_filter( 'the_excerpt', 'phat_excerpt_read_more_link' );
 // Adds filter for breadcrumbs
-add_filter( 'phat_breadcrumbs', 'phat_breadcrumbs');
+add_filter( 'phat_breadcrumbs', 'phat_breadcrumbs' );
 // It's for propper layout with bwsgallery activated
-add_action( 'wp_footer', 'phat_jsCrunch');
+add_action( 'wp_footer', 'phat_jsCrunch' );
 // It's for page title work propper 
 add_filter( 'wp_title', 'phat_wp_title', 10, 2 );
-add_action( 'wp_head', 'phat_ru_titles');
+add_action( 'wp_head', 'phat_ru_titles' );
 ?>

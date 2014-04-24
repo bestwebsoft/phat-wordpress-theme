@@ -36,7 +36,7 @@ get_sidebar(); ?>
 						</a>
                             <span class="phat-page-link-left"><?php previous_image_link( false, __( '&laquo; Previous Image' , 'phat' ) ); ?></span>
                             <span class="phat-page-link-right"><?php next_image_link( false, __( 'Next Image &raquo;' , 'phat' ) ); ?></span>
-                        <div style="clear: both"></div>
+                        <div class="clear""></div>
                         <?php the_content(); ?>
 					</div> <!-- .entry-content -->
 					<?php wp_link_pages( 
