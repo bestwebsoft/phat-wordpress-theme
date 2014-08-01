@@ -1,10 +1,10 @@
 /*
 Theme Name: Phat
 Theme URI: http://bestwebsoft.com/theme/phat/
-Description: A simple template perfect suits for bussines blog site with centered content area, sidebar and breadcrumbs.
+Description: Phat is a theme for people, who have a unique worldview and wish to share it with the readers. Phat is for individuals, who dare to challenge convention. With this theme, you can be assured that your website will stay off the beaten track, and people will keep coming for more of your edgy stories. Venturesome and smart, Phat is perfect for Movie reviews, Storytelling, Business news, Customer Reviews, Community events, Public appearances, Service Centers, Product reviews, Entertainment News & Celebrity Sites, Business magazines, Stock information and many more! See how your website will look with this theme at: http://bestwebsoft.com/wordpress_demo_theme/phat/
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Version: 2.1
+Version: 2.2
 Phat Theme, Copyright 2014 BestWebSoft.com
 Phat is distributed under the terms of the GNU GPL
 License: GNU General Public License v3 or later
@@ -312,7 +312,7 @@ input[type='radio'] {
 	
 input[type='reset'], input[type='submit'] {
 	border: none;
-	width:100px;
+	min-width: 100px;
 	height: 44px;
 	margin: 0 10px 8px 0;
 	background: #2d97e8;

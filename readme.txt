@@ -4,14 +4,14 @@ Author URI: https://github.com/bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=1&product_id=94
 Tags: black, white, gray, light, left-sidebar, fluid-layout, threaded-comments, sticky-post, translation-ready, featured-images
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 2.1
+Tested up to: 3.9.1
+Stable tag: 2.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Phat is the great theme for bloggers with strict design.
+Phat is a theme for people, who have a unique worldview and wish to share it with the readers. Phat is for individuals, who dare to challenge convention. With this theme, you can be assured that your website will stay off the beaten track, and people will keep coming for more of your edgy stories. Venturesome and smart, Phat is perfect for Movie reviews, Storytelling, Business news, Customer Reviews, Community events, Public appearances, Service Centers, Product reviews, Entertainment News & Celebrity Sites, Business magazines, Stock information and many more! See how your website will look with this theme at: http://bestwebsoft.com/wordpress_demo_theme/phat/
 
 = Translation =
 
@@ -70,6 +70,10 @@ The Theme doesn't include any widgets. If you want to display a widget: please a
 There are no questions yet.
 
 == Changelog ==
+
+= V2.2 - 30.07.2014 =
+* Update: Theme was tested with wordpress 3.9.1. 
+* New: We add phat.pot file.
 
 = V2.1 - 24.04.2014 =
 * Changed header styles, left padding refactored to percent instead of px
@@ -138,6 +142,9 @@ There are no questions yet.
 * Release date of Phat.
 
 == Upgrade Notice ==
+
+= V2.2 =
+Theme was tested with wordpress 3.9.1. We add phat.pot file.
 
 = V2.1 =
 Changed header styles, left padding refactored to percent instead of px. Changed left indentation of sidebar elements.

@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: phat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-03 12:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <social@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tag.php:12
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: page.php:20
+#: loop.php:40
+#: single.php:20
+msgid "Posted on "
+msgstr ""
+
+#: page.php:21
+#: loop.php:41
+#: single.php:21
+msgid " of "
+msgstr ""
+
+#: page.php:22
+#: loop.php:42
+#: single.php:22
+msgid "by "
+msgstr ""
+
+#: page.php:29
+#: image.php:44
+#: loop.php:58
+#: single.php:30
+msgid "Pages: "
+msgstr ""
+
+#: page.php:36
+#: page.php:38
+#: image.php:50
+#: image.php:52
+#: loop.php:69
+#: loop.php:71
+#: single.php:36
+#: single.php:38
+msgid "Edit"
+msgstr ""
+
+#: archive.php:14
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:16
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:18
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:20
+msgid "Blog Archives:"
+msgstr ""
+
+#: footer.php:12
+msgid "Created by"
+msgstr ""
+
+#: footer.php:14
+msgid "and "
+msgstr ""
+
+#: footer.php:15
+msgid "WordPress,"
+msgstr ""
+
+#: image.php:20
+msgid "Posted on"
+msgstr ""
+
+#: image.php:21
+msgid "of"
+msgstr ""
+
+#: image.php:22
+msgid "by"
+msgstr ""
+
+#: image.php:24
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: image.php:27
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:34
+msgid "Click to full-size image: "
+msgstr ""
+
+#: image.php:37
+msgid "&laquo; Previous Image"
+msgstr ""
+
+#: image.php:38
+msgid "Next Image &raquo;"
+msgstr ""
+
+#: image.php:61
+#: single.php:47
+msgid "Previous entry"
+msgstr ""
+
+#: image.php:62
+#: single.php:48
+msgid "Next entry"
+msgstr ""
+
+#: functions.php:61
+msgid "Phat_Sidebar"
+msgstr ""
+
+#: functions.php:64
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:126
+msgid "Read more"
+msgstr ""
+
+#: functions.php:148
+msgid "Enter your name here*"
+msgstr ""
+
+#: functions.php:150
+msgid "Enter your email here*"
+msgstr ""
+
+#: functions.php:152
+msgid "Website"
+msgstr ""
+
+#: functions.php:154
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: functions.php:159
+msgid "Enter your comment here"
+msgstr ""
+
+#: functions.php:160
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:161
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: functions.php:162
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:166
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:167
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:168
+msgid "Cancel reply"
+msgstr ""
+
+#: functions.php:169
+msgid "Submit"
+msgstr ""
+
+#: functions.php:234
+msgid "Home"
+msgstr ""
+
+#: functions.php:235
+msgid "Category:"
+msgstr ""
+
+#: functions.php:236
+msgid "Results for:"
+msgstr ""
+
+#: functions.php:237
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:238
+msgid "Autors posts:"
+msgstr ""
+
+#: functions.php:239
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:343
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: searchform.php:9
+#: searchform.php:10
+msgid "Enter search keyword"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:25
+msgid "Sorry, unfortunately, we could not find the requested querry."
+msgstr ""
+
+#: search.php:26
+msgid "You should try to find something else"
+msgstr ""
+
+#: category.php:12
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: loop.php:18
+#: 404.php:11
+msgid "404: Page not found"
+msgstr ""
+
+#: loop.php:21
+msgid "Sorry, there is no post yet."
+msgstr ""
+
+#: loop.php:22
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr ""
+
+#: loop.php:42
+#: single.php:22
+msgid "in "
+msgstr ""
+
+#: loop.php:63
+msgid "Top"
+msgstr ""
+
+#: loop.php:81
+msgid "Previous entrys"
+msgstr ""
+
+#: loop.php:82
+msgid "Next entrys"
+msgstr ""
+
+#: comments.php:22
+#: comments.php:32
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:23
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:24
+#: comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: 404.php:12
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr ""

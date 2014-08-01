@@ -388,4 +388,3 @@ add_action( 'wp_footer', 'phat_jsCrunch' );
 // It's for page title work propper 
 add_filter( 'wp_title', 'phat_wp_title', 10, 2 );
 add_action( 'wp_head', 'phat_ru_titles' );
-?>
