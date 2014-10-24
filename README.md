@@ -3,20 +3,20 @@
 
 A simple template perfect suits for bussines blog site with centered content area, sidebar and breadcrumbs.
 
-<img src="http://bestwebsoft.com/wp-content/uploads/2014/02/phat-banner.jpg" />
+<img src="http://bestwebsoft.com/wp-content/uploads/2014/09/xphat-wp-banner.jpg.pagespeed.ic.Dp0qd5AODq.jpg" />
 
-<a href="http://bestwebsoft.com/theme/phat/#description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/theme/phat/#installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/theme/phat/#faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/theme/phat/#screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/theme/phat/#changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/theme/phat/#download" target=_blank>Download</a>
+<a href="http://bestwebsoft.com/products/phat/description" target=_blank>Description</a> | 
+<a href="http://bestwebsoft.com/products/phat/installation" target=_blank>Installation</a> | 
+<a href="http://bestwebsoft.com/products/phat/faq" target=_blank>FAQ</a> | 
+<a href="http://bestwebsoft.com/products/phat/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestwebsoft.com/products/phat/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestwebsoft.com/products/phat/download" target=_blank>Download</a>
 
 Translation
 -----------------------------
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send the text of PO and MO files for BestWebSoft and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files Poedit.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 Copyrights for Resources used in this theme.
 -----------------------------
