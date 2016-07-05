@@ -1,33 +1,30 @@
-<?php 
+<?php
 /**
  * The template for displaying Search Results pages.
  * @subpackage Phat
- * @since Phat 1.0
+ * @since      Phat 1.0
  */
-get_header(); 
-get_sidebar();
-if ( have_posts() ) : ?>
+get_header();
+get_sidebar(); ?>
 	<div class='posts'>
-		<div class="search-results-background">
-			<div class="search-header">
-				<?php printf( __( 'Search Results for: %s', 'phat' ), '<span>' . get_search_query() . '</span>' ); ?>
-			</div> <!-- .search-header -->
-		</div> <!-- .search-results-background -->
-		<?php get_template_part( 'loop', 'search' ); ?>
+		<?php if ( have_posts() ) :
+			the_post(); ?>
+			<div class="search-results-background">
+				<div class="search-header">
+					<?php _e( 'Search Results for: ', 'phat' );
+					the_search_query(); ?>
+				</div> <!-- .search-header -->
+			</div> <!-- .search-results-background -->
+			<?php rewind_posts();
+			get_template_part( 'loop', 'search' );
+		else : ?>
+			<div class="search-results-background">
+				<div class="search-header">
+					<?php _e( 'Sorry, unfortunately, we could not find the requested querry.', 'phat' ); ?>
+					<p><?php _e( 'You should try to find something else', 'phat' ); ?></p>
+					<?php get_search_form(); ?>
+				</div> <!-- .search-header -->
+			</div> <!-- .search-results-background -->
+		<?php endif; ?>
 	</div> <!-- .posts -->
-</div>  <!-- .content -->
-<?php get_footer() ?>
-
-<?php else : ?>
-	<div class='posts'>
-		<div class="search-results-background">
-			<div class="search-header">
-				<?php _e( 'Sorry, unfortunately, we could not find the requested querry.', 'phat' ); ?>
-				<p><?php _e( 'You should try to find something else', 'phat' ); ?></p>
-				<?php get_search_form(); ?>
-			</div> <!-- #content404 -->
-		</div> <!-- #container404 -->
-<?php endif; ?>
-	</div> <!-- .posts -->
-</div>  <!-- .content -->
-<?php get_footer(); ?>
+<?php get_footer();

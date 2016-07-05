@@ -12,7 +12,8 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'phat-menu' ) ); ?>
 			</nav>
 		</div> <!-- .phat-menu' -->
-		<?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'Phat_Sidebar' ) ):
-		endif; ?>
+		<?php if ( is_active_sidebar( 'phat-sidebar' ) ) {
+			dynamic_sidebar( 'phat-sidebar' );
+		} ?>
 	</div> <!-- .widget -->
 </div> <!-- .sidebar -->

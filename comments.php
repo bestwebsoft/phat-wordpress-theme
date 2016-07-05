@@ -2,20 +2,18 @@
 /**
  * The template for displaying Comments.
  * @subpackage Phat
- * @since Phat 1.0
+ * @since      Phat 1.0
  * If the current post is protected by a password and
  * the visitor has not yet entered the password we will
  * return early without loading the comments.
  */
 if ( post_password_required() ) {
 	return;
-}
-?>
+} ?>
 <div id="comments" class="comments-area entry-content">
 	<?php if ( have_comments() ) : ?>
 		<h3 class="comments-title">
-			<?php printf( _n( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'phat' ),
-			number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' ); ?>
+			<?php printf( _n( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'phat' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' ); ?>
 		</h3>
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
 			<nav role="navigation">

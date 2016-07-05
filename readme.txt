@@ -1,23 +1,25 @@
 === Phat ===
-Contributors: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=1&product_id=94
-Tags: black, white, gray, light, left-sidebar, fluid-layout, threaded-comments, sticky-post, translation-ready, featured-images
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 2.2
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Tags: two-columns, left-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 2.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Phat WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Phat is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Phat is a theme for people, who have a unique worldview and wish to share it with the readers. Phat is for individuals, who dare to challenge convention. With this theme, you can be assured that your website will stay off the beaten track, and people will keep coming for more of your edgy stories. Venturesome and smart, Phat is perfect for Movie reviews, Storytelling, Business news, Customer Reviews, Community events, Public appearances, Service Centers, Product reviews, Entertainment News & Celebrity Sites, Business magazines, Stock information and many more! See how your website will look with this theme at: http://bestwebsoft.com/wordpress_demo_theme/phat/
+Phat is a theme for people, who have a unique worldview and wish to share it with the readers. Phat is for individuals, who dare to challenge convention. With this theme, you can be assured that your website will stay off the beaten track, and people will keep coming for more of your edgy stories. Venturesome and smart, Phat is perfect for Movie reviews, Storytelling, Business news, Customer Reviews, Community events, Public appearances, Service Centers, Product reviews, Entertainment News & Celebrity Sites, Business magazines, Stock information and many more! See how your website will look with this theme at: http://wp-demo-theme.bestweblayout.com/phat/
 
 = Translation =
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme. =
 
@@ -37,7 +39,7 @@ If you would like to create your own language pack or update the existing one, y
 		* plugin URI: https://github.com/marcj/jquery-selectBox
 		* Author: Marc J. Schmidt.
 		* License: MIT.
-Phat incorporates code from Twentytwelve Theme by Wordpress team, Copyright 2012 Wordpress, released under GPL.  
+Phat incorporates code from Twentytwelve Theme by WordPress team, Copyright 2012 WordPress, released under GPL.
 Everything else used in this theme has been created by BestWebSoft, especially for the Phat theme and is distributed under GPL license.
 
 == Installation ==
@@ -71,8 +73,17 @@ There are no questions yet.
 
 == Changelog ==
 
+= v2.3 - 05.07.2016 =
+* New:    The 'title-tag' theme support was added.
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Unnecessary files category.php and tag.php have been removed.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
 = V2.2 - 30.07.2014 =
-* Update: Theme was tested with wordpress 3.9.1. 
+* Update: Theme was tested with WordPress 3.9.1.
 * New: We add phat.pot file.
 
 = V2.1 - 24.04.2014 =
@@ -107,7 +118,7 @@ There are no questions yet.
 = V1.1.3 - 30.01.2014 =
 * Changes in functions.php
 * Changes in header.php
-* Theme was tested with wordpress 3.8.1
+* Theme was tested with WordPress 3.8.1
 * Changelog was added into readme.txt
 * Header change color support was added
 * Comments template was remade
@@ -133,7 +144,7 @@ There are no questions yet.
 * Pagination links were removed from page.php.
 * Action Hooks were rearranged in functions.php.
 * jsCrunch function was added to functions.php for correct maintanance of BWS Gallery plugin. It fixes layout issue when single gallery is displayed.
-* All template files were aligned with the requirements of the Wordpress Codex.
+* All template files were aligned with the requirements of the WordPress Codex.
 * Sub-element style was removed for :visited from all links.
 * Comment Form styles were refactored.
 * Some tweaks were done and minor bugs were fixed.
@@ -143,8 +154,11 @@ There are no questions yet.
 
 == Upgrade Notice ==
 
+= V2.3 =
+The 'title-tag' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
 = V2.2 =
-Theme was tested with wordpress 3.9.1. We add phat.pot file.
+Theme was tested with WordPress 3.9.1. We add phat.pot file.
 
 = V2.1 =
 Changed header styles, left padding refactored to percent instead of px. Changed left indentation of sidebar elements.
@@ -165,7 +179,7 @@ Changed header styles, added copyrights.
 Fixed image in caption issue. Added min-width for .posts div for correct display content when browser window was shrunk. Changed footer text.
 
 = V1.1.3 =
-Changes in functions.php. Changes in header.php. Theme was tested with wordpress 3.8.1. Changelog was added into readme.txt. Header change color support was added. Comments template was remade. The `<pre>` tag style was changed. Text padding for pictures was added.
+Changes in functions.php. Changes in header.php. Theme was tested with WordPress 3.8.1. Changelog was added into readme.txt. Header change color support was added. Comments template was remade. The `<pre>` tag style was changed. Text padding for pictures was added.
 
 = V1.1.2 =
 Styles for comments template were remade. Image.php template was modified. Site description issue with markup was fixed. Padding for thumbnail image div was added. Search bug was fixed.
@@ -174,7 +188,7 @@ Styles for comments template were remade. Image.php template was modified. Site 
 Styles for comments template were remade. Image.php template was added. Site description issue with markup was fixed. Added padding for thumbnail image div. Search bug was fixed.
 
 = V1.1.0 =
-New strings were added to language translation ru_RU.po. Pagination links were removed from page.php. Action Hooks were rearranged in functions.php. jsCrunch function was added to functions.php for correct maintanance of BWS Gallery plugin. All template files were aligned with the requirements of the Wordpress Codex. Sub-element style was removed for :visited from all links. Comment Form styles were refactored. Some tweaks were done and minor bugs were fixed.
+New strings were added to language translation ru_RU.po. Pagination links were removed from page.php. Action Hooks were rearranged in functions.php. jsCrunch function was added to functions.php for correct maintanance of BWS Gallery plugin. All template files were aligned with the requirements of the WordPress Codex. Sub-element style was removed for :visited from all links. Comment Form styles were refactored. Some tweaks were done and minor bugs were fixed.
 
 = V1.0 =
 Upgrade immediately.
