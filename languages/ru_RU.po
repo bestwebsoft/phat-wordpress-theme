@@ -1,20 +1,24 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Phat\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-05 17:55+0300\n"
+"Project-Id-Version: Phat v2.4\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-24 10:56+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: ru_RU\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr_e\n"
-"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -70,37 +74,45 @@ msgstr "Меню сайдбара"
 msgid "Main Sidebar"
 msgstr "Главный Сайдбар"
 
-#: functions.php:140
+#: functions.php:85
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: functions.php:86
+msgid "File is not selected"
+msgstr "Файл не выбран"
+
+#: functions.php:145
 msgid "Read more"
 msgstr "Читать далее"
 
-#: functions.php:161
+#: functions.php:166
 msgid "Enter your name here*"
 msgstr "Введите своё имя*"
 
-#: functions.php:163
+#: functions.php:168
 msgid "Enter your email here*"
 msgstr "Введите свой email*"
 
-#: functions.php:165
+#: functions.php:170
 msgid "Website"
 msgstr "Сайт"
 
-#: functions.php:167
+#: functions.php:172
 #, php-format
 msgid "Required fields are marked %s"
 msgstr "Обязательные поля помечены %s"
 
-#: functions.php:172
+#: functions.php:177
 msgid "Enter your comment here"
 msgstr "Введите комментарий"
 
-#: functions.php:173
+#: functions.php:178
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Вы должны <a href=\"%s\">войти</a> чтобы комментировать."
 
-#: functions.php:174
+#: functions.php:179
 #, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
@@ -109,56 +121,56 @@ msgstr ""
 "Вы зашли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из "
 "этого аккаунта\">Выйти?</a>"
 
-#: functions.php:175
+#: functions.php:180
 msgid "Your email address will not be published."
 msgstr "Ваш email адрес не будет опублекован."
 
-#: functions.php:179
+#: functions.php:184
 msgid "Leave a Reply"
 msgstr "Оставить комментарий"
 
-#: functions.php:180
+#: functions.php:185
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Оставить комментарий к %s"
 
-#: functions.php:181
+#: functions.php:186
 msgid "Cancel reply"
 msgstr "Отменить ответ"
 
-#: functions.php:182
+#: functions.php:187
 msgid "Submit"
 msgstr "Отправить"
 
-#: functions.php:245
+#: functions.php:250
 msgid "Home"
 msgstr "Главная"
 
-#: functions.php:246
+#: functions.php:251
 msgid "Category:"
 msgstr "Категория:"
 
-#: functions.php:247
+#: functions.php:252
 msgid "Results for:"
 msgstr "Результаты поиска для:"
 
-#: functions.php:248
+#: functions.php:253
 msgid "Tags:"
 msgstr "Метки:"
 
-#: functions.php:249
+#: functions.php:254
 msgid "Autors posts:"
 msgstr "Посты автора:"
 
-#: functions.php:250
+#: functions.php:255
 msgid "Error 404"
 msgstr "Ошибка 404"
 
-#: image.php:21 loop.php:36 page.php:20 single.php:20
+#: image.php:21 loop.php:36 single.php:20
 msgid "Posted on"
 msgstr "Опубликовано"
 
-#: image.php:23 loop.php:38 page.php:22 single.php:22
+#: image.php:23 loop.php:38 single.php:22
 msgid "by"
 msgstr "автором"
 
@@ -183,20 +195,20 @@ msgstr "&laquo; Предыдущее изображение"
 msgid "Next Image &raquo;"
 msgstr "Следующее изображение &raquo;"
 
-#: image.php:47 loop.php:54 page.php:29 single.php:30
+#: image.php:47 loop.php:57 page.php:23 single.php:33
 msgid "Pages: "
 msgstr "Страницы: "
 
-#: image.php:53 image.php:55 loop.php:64 loop.php:66 page.php:35 page.php:37
-#: single.php:35 single.php:37
+#: image.php:53 image.php:55 loop.php:67 loop.php:69 page.php:29 page.php:31
+#: single.php:39 single.php:41
 msgid "Edit"
 msgstr "Редактировать"
 
-#: image.php:63 single.php:46
+#: image.php:63 single.php:50
 msgid "Previous entry"
 msgstr "Предыдущая запись"
 
-#: image.php:64 single.php:47
+#: image.php:64 single.php:51
 msgid "Next entry"
 msgstr "Следующая запись"
 
@@ -204,19 +216,19 @@ msgstr "Следующая запись"
 msgid "Sorry, there is no post yet."
 msgstr "Извините, здесь ещё нет постов."
 
-#: loop.php:39 single.php:23
+#: loop.php:41 single.php:25
 msgid "in "
 msgstr "в "
 
-#: loop.php:58
+#: loop.php:61
 msgid "Top"
 msgstr "Вверх"
 
-#: loop.php:75
+#: loop.php:78
 msgid "Previous entrys"
 msgstr "Предыдущие статьи"
 
-#: loop.php:76
+#: loop.php:79
 msgid "Next entrys"
 msgstr "Cледующие статьи"
 
@@ -225,14 +237,14 @@ msgid "Search Results for: "
 msgstr "Результаты поиска для: "
 
 #: search.php:23
-msgid "Sorry, unfortunately, we could not find the requested querry."
+msgid "Sorry, unfortunately, we could not find the requested query."
 msgstr "Извините, по вашему запросу ничего не найдено."
 
 #: search.php:24
 msgid "You should try to find something else"
 msgstr "Может попробуете поискать что-то другое?"
 
-#: searchform.php:9 searchform.php:10
+#: searchform.php:9
 msgid "Enter search keyword"
 msgstr "Введите ключевое слово"
 

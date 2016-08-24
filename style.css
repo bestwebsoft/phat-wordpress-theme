@@ -4,7 +4,7 @@ Theme URI: http://bestweblayout.com/products/phat/
 Author: BestWebLayout
 Author URI: http://bestweblayout.com/
 Description: Phat is a theme for people, who have a unique worldview and wish to share it with the readers. Phat is for individuals, who dare to challenge convention. With this theme, you can be assured that your website will stay off the beaten track, and people will keep coming for more of your edgy stories. Venturesome and smart, Phat is perfect for Movie reviews, Storytelling, Business news, Customer Reviews, Community events, Public appearances, Service Centers, Product reviews, Entertainment News & Celebrity Sites, Business magazines, Stock information and many more! See how your website will look with this theme at: http://wp-demo-theme.bestweblayout.com/phat/
-Version: 2.3
+Version: 2.4
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: two-columns, left-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
@@ -333,7 +333,7 @@ textarea {
 }
 
 .entry-content img {
-	max-width: 580px;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -379,14 +379,14 @@ a img.aligncenter {
 }
 
 .wp-caption {
-	max-width: 580px;
+	max-width: 100%;
 	border: none;
 	background: #fff; /* Image does not overflow the content area */
 }
 
 .wp-caption.alignnone {
-	margin: 4px 20px 2px 0;
-	max-width: 580px;
+	margin: 4px 0 2px 0;
+	/*max-width: 580px;*/
 }
 
 .wp-caption.alignleft {
@@ -400,7 +400,7 @@ a img.aligncenter {
 .wp-caption img {
 	margin: 0;
 	padding: 0;
-	max-width: 580px;
+	max-width: 100%;
 	width: auto;
 	height: auto;
 	border: 0 none;
@@ -412,6 +412,7 @@ a img.aligncenter {
 	font-style: italic;
 	font-size: 13px;
 	line-height: 26px;
+	max-width: 100%;
 }
 
 .wp-caption dt {
@@ -535,6 +536,12 @@ header {
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
+.header-image img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+}
+
 .content {
 	position: relative;
 	width: 100%;
@@ -609,8 +616,23 @@ header {
 	height: 41px;
 	outline: none; /* свечение в Chrome и Safari */
 	border: none; /* Fone parameters */
-	background: #fff url('images/find.png') no-repeat 273px 48%;
+	background: #fff;
 	color: #999;
+}
+
+button.search-submit {
+	padding: 2px 4px;
+	width: 41px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-left: 1px solid #999;
+	background: #fff url('images/find.png') no-repeat center center;
+	color: #999;
+	margin: 5px 0 0 -50px;
+	box-sizing: content-box;
+	cursor: pointer;
+	position: absolute;
 }
 
 #wp-calendar {

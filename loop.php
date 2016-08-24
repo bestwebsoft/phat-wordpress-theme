@@ -36,8 +36,11 @@ if ( ! have_posts() ) : ?>
 					<?php _e( 'Posted on', 'phat' ); ?>
 					<a href='<?php echo esc_url( get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) ); ?>'><?php echo get_the_date(); ?></a>
 					<?php _e( 'by', 'phat' ); ?>
-					<a href='<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>'><?php the_author_meta( 'display_name' ); ?></a> <?php _e( 'in ', 'phat' );
-					the_category( ', ' ); ?>
+					<a href='<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>'><?php the_author_meta( 'display_name' ); ?></a>
+					<?php if ( has_category() ) {
+						_e( 'in ', 'phat' );
+						the_category( ', ' );
+					} ?>
 				</div><!-- .entry-meta -->
 				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
 					<div class="entry-thumbnail">

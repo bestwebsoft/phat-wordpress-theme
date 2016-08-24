@@ -14,7 +14,7 @@ get_sidebar(); ?>
 					<div class='entry'>
 						<div class='entry-header'>
 							<h1>
-								<a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
+								<?php the_title() ?>
 							</h1>
 						</div> <!-- .entry-header -->
 						<div class='entry-meta'>

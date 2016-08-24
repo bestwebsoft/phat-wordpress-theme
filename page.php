@@ -13,15 +13,9 @@ get_sidebar(); ?>
 					<div class='entry'>
 						<div class='entry-header'>
 							<h1>
-								<a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
+								<?php the_title() ?>
 							</h1>
 						</div> <!-- .entry-header -->
-						<div class='entry-meta'>
-							<?php _e( 'Posted on', 'phat' ); ?>
-							<a href='<?php echo esc_url( get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) ); ?>'><?php echo get_the_date(); ?></a>
-							<?php _e( 'by', 'phat' ); ?>
-							<a href='<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>'><?php the_author_meta( 'display_name' ); ?></a>
-						</div> <!-- .entry-meta -->
 						<div class='entry-content'>
 							<?php the_content() ?>
 						</div> <!-- .entry-content -->

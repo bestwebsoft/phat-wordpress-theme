@@ -56,10 +56,12 @@ function phat_setup() {
 	add_theme_support( 'custom-background', $background_args );
 	// Add theme support for Custopm Background
 	$headargs = array(
-		'width'              => 940,
+		'width'              => 1200,
 		'height'             => 220,
 		'default-text-color' => 'fff',
 		'uploads'            => true,
+		'flex-height'        => true,
+		'flex-width'         => true,
 	);
 	add_theme_support( 'custom-header', $headargs );
 	// Add theme support for custom CSS in the TinyMCE visual editor
@@ -81,6 +83,11 @@ function phat_scripts_styles() {
 	wp_enqueue_style( 'phat-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'phat-scripts', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), null, false );
 	wp_enqueue_script( 'phat-file-input', get_template_directory_uri() . '/js/file_input.js', array( 'jquery' ), null, false );
+	$js_string = array(
+		'chooseFile' => __( 'Choose file...', 'phat' ),
+		'fileNotSel' => __( 'File is not selected', 'phat' ),
+	);
+	wp_localize_script( 'phat-file-input', 'phatJsString', $js_string );
 	wp_enqueue_script( 'phat-icheck', get_template_directory_uri() . '/js/icheck.js', array( 'jquery' ), null, false );
 	wp_enqueue_script( 'phat-select-box', get_template_directory_uri() . '/js/select_box.js', array( 'jquery' ), null, false );
 	wp_enqueue_style( 'phat-plugin-style', get_stylesheet_directory_uri() . '/css/selectcheckradio.css' );

@@ -9,10 +9,10 @@
 (function( $ ) {
 	$.fn.nicefileinput = function( options ) {
 		var settings = {
-			label : 'Choose file...',
+			label : phatJsString.chooseFile,
 			fullPath: false
 		};
-		if( options ) { $.extend( settings, options ); };
+		if( options ) { $.extend( settings, options ); }
 
 		return this.each(function() {
 			var self = this;
@@ -23,7 +23,7 @@
 				var d = new Date();
 				var guid = d.getTime() + r.toString();
 
-				var filename = $( '<input type="text" value="File is not selected" readonly="readonly">' )
+				var filename = $( '<input type="text" value="' + phatJsString.fileNotSel + '" readonly="readonly">' )
 					.css({
 						'display': 'block',
 						'float': 'left',

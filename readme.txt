@@ -1,11 +1,11 @@
 === Phat ===
 Contributors: BestWebLayout, BestWebSoft
 Author URI: http://bestweblayout.com/
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, left-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.2
-Tested up to: 4.5.3
-Stable tag: 2.3
+Tested up to: 4.6
+Stable tag: 2.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Phat WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -73,7 +73,10 @@ There are no questions yet.
 
 == Changelog ==
 
-= v2.3 - 05.07.2016 =
+= V2.4 - 24.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
+= V2.3 - 05.07.2016 =
 * New:    The 'title-tag' theme support was added.
 * Bugfix: Fixed mismatch coding standards.
 * Bugfix: Fixed theme styles.
@@ -153,6 +156,9 @@ There are no questions yet.
 * Release date of Phat.
 
 == Upgrade Notice ==
+
+= V2.4 =
+* The compatibility with new WordPress version updated.
 
 = V2.3 =
 The 'title-tag' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.

@@ -21,11 +21,18 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	<?php wp_head(); ?>
+	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
+		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php endif;
+	wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <div id='wrapper'>
+	<?php if ( get_header_image() ) { ?>
+		<div class="header-image">
+			<img src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+		</div>
+	<?php } ?>
 	<header class='masthead' role="banner">
 		<div class='logo'>
 			<div class='sitename'>

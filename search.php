@@ -20,7 +20,7 @@ get_sidebar(); ?>
 		else : ?>
 			<div class="search-results-background">
 				<div class="search-header">
-					<?php _e( 'Sorry, unfortunately, we could not find the requested querry.', 'phat' ); ?>
+					<?php _e( 'Sorry, unfortunately, we could not find the requested query.', 'phat' ); ?>
 					<p><?php _e( 'You should try to find something else', 'phat' ); ?></p>
 					<?php get_search_form(); ?>
 				</div> <!-- .search-header -->

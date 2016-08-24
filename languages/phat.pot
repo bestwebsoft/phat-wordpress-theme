@@ -1,36 +1,37 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Phat\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-05 17:55+0300\n"
+"Project-Id-Version: Phat v2.4\n"
+"POT-Creation-Date: 2016-08-24 10:56+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: ru_RU\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:12 loop.php:17
-#, fuzzy
 msgid "404: Page not found"
-msgstr "404: Страница не найдена"
+msgstr ""
 
 #: 404.php:13
-#, fuzzy
 msgid "Sorry, unfortunately, we could not find the requested page."
-msgstr "Извините, страница не найдена."
+msgstr ""
 
 #: 404.php:14 loop.php:21
-#, fuzzy
 msgid "Maybe try a search?"
-msgstr "Может попробуем поиск?"
+msgstr ""
 
 #: comments.php:16
 #, php-format
@@ -40,235 +41,202 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: comments.php:20 comments.php:30
-#, fuzzy
 msgid "Comment navigation"
-msgstr "Навигация по комментариям"
+msgstr ""
 
 #: comments.php:21 comments.php:31
-#, fuzzy
 msgid "&larr; Older Comments"
-msgstr "&larr; Старые комментарии"
+msgstr ""
 
 #: comments.php:22 comments.php:32
-#, fuzzy
 msgid "Newer Comments &rarr;"
-msgstr "Следующие комментарии &rarr;"
+msgstr ""
 
 #: comments.php:37
-#, fuzzy
 msgid "Comments are closed."
-msgstr "Комментарии запрещены"
+msgstr ""
 
 #: footer.php:13
-#, fuzzy
 msgid "Created by"
-msgstr "Создано"
+msgstr ""
 
 #: footer.php:15
-#, fuzzy
 msgid "and powered by"
-msgstr "при поддержке"
+msgstr ""
 
 #: functions.php:68
-#, fuzzy
 msgid "Sidebar Menu"
-msgstr "Меню сайдбара"
+msgstr ""
 
 #: functions.php:74
-#, fuzzy
 msgid "Main Sidebar"
-msgstr "Главный сайдбар"
+msgstr ""
 
-#: functions.php:140
-#, fuzzy
+#: functions.php:85
+msgid "Choose file..."
+msgstr ""
+
+#: functions.php:86
+msgid "File is not selected"
+msgstr ""
+
+#: functions.php:145
 msgid "Read more"
-msgstr "Читать далее"
+msgstr ""
 
-#: functions.php:161
-#, fuzzy
+#: functions.php:166
 msgid "Enter your name here*"
-msgstr "Введите своё имя*"
+msgstr ""
 
-#: functions.php:163
-#, fuzzy
+#: functions.php:168
 msgid "Enter your email here*"
-msgstr "Введите свой email*"
+msgstr ""
 
-#: functions.php:165
-#, fuzzy
+#: functions.php:170
 msgid "Website"
-msgstr "Сайт"
-
-#: functions.php:167
-#, fuzzy, php-format
-msgid "Required fields are marked %s"
-msgstr "Обязательные поля помечены %s"
+msgstr ""
 
 #: functions.php:172
-#, fuzzy
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: functions.php:177
 msgid "Enter your comment here"
-msgstr "Введите комментарий"
+msgstr ""
 
-#: functions.php:173
-#, fuzzy, php-format
+#: functions.php:178
+#, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Вы должны <a href=\"%s\">войти</a> чтобы комментировать."
-
-#: functions.php:174
-#, fuzzy, php-format
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
-msgstr "Вы зашли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из этого аккаунта\">Выйти?</a>"
-
-#: functions.php:175
-#, fuzzy
-msgid "Your email address will not be published."
-msgstr "Ваш email адрес не будет опублекован."
+msgstr ""
 
 #: functions.php:179
-#, fuzzy
-msgid "Leave a Reply"
-msgstr "Оставить комментарий"
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
 
 #: functions.php:180
-#, fuzzy, php-format
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:184
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:185
+#, php-format
 msgid "Leave a Reply to %s"
-msgstr "Оставить комментарий к %s"
+msgstr ""
 
-#: functions.php:181
-#, fuzzy
+#: functions.php:186
 msgid "Cancel reply"
-msgstr "Отменить ответ"
+msgstr ""
 
-#: functions.php:182
-#, fuzzy
+#: functions.php:187
 msgid "Submit"
-msgstr "Отправить"
-
-#: functions.php:245
-#, fuzzy
-msgid "Home"
-msgstr "Главная"
-
-#: functions.php:246
-#, fuzzy
-msgid "Category:"
-msgstr "Категория:"
-
-#: functions.php:247
-#, fuzzy
-msgid "Results for:"
-msgstr "Результаты поиска для:"
-
-#: functions.php:248
-#, fuzzy
-msgid "Tags:"
-msgstr "Теги:"
-
-#: functions.php:249
-#, fuzzy
-msgid "Autors posts:"
-msgstr "Посты автора:"
+msgstr ""
 
 #: functions.php:250
-#, fuzzy
+msgid "Home"
+msgstr ""
+
+#: functions.php:251
+msgid "Category:"
+msgstr ""
+
+#: functions.php:252
+msgid "Results for:"
+msgstr ""
+
+#: functions.php:253
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:254
+msgid "Autors posts:"
+msgstr ""
+
+#: functions.php:255
 msgid "Error 404"
-msgstr "Ошибка 404"
+msgstr ""
 
-#: image.php:21 loop.php:36 page.php:20 single.php:20
-#, fuzzy
+#: image.php:21 loop.php:36 single.php:20
 msgid "Posted on"
-msgstr "Опубликовано"
+msgstr ""
 
-#: image.php:23 loop.php:38 page.php:22 single.php:22
+#: image.php:23 loop.php:38 single.php:22
 msgid "by"
 msgstr ""
 
 #: image.php:26
-#, fuzzy, php-format
+#, php-format
 msgid "Full size is %s pixels"
-msgstr "Разрешение файла %s пикселей"
+msgstr ""
 
 #: image.php:29
-#, fuzzy
 msgid "Link to full-size image"
-msgstr "Ссылка на полноразмерное изображение"
+msgstr ""
 
 #: image.php:36
-#, fuzzy
 msgid "Click to full-size image: "
-msgstr "Полноразмерное изображение: "
+msgstr ""
 
 #: image.php:39
-#, fuzzy
 msgid "&laquo; Previous Image"
-msgstr "&laquo; Предыдущее изображение"
+msgstr ""
 
 #: image.php:40
-#, fuzzy
 msgid "Next Image &raquo;"
-msgstr "Следующее изображение &raquo;"
+msgstr ""
 
-#: image.php:47 loop.php:54 page.php:29 single.php:30
-#, fuzzy
+#: image.php:47 loop.php:57 page.php:23 single.php:33
 msgid "Pages: "
-msgstr "Страница"
+msgstr ""
 
-#: image.php:53 image.php:55 loop.php:64 loop.php:66 page.php:35 page.php:37
-#: single.php:35 single.php:37
-#, fuzzy
+#: image.php:53 image.php:55 loop.php:67 loop.php:69 page.php:29 page.php:31 single.php:39 single.php:41
 msgid "Edit"
-msgstr "Править"
+msgstr ""
 
-#: image.php:63 single.php:46
-#, fuzzy
+#: image.php:63 single.php:50
 msgid "Previous entry"
-msgstr "Предыдущая запись"
+msgstr ""
 
-#: image.php:64 single.php:47
-#, fuzzy
+#: image.php:64 single.php:51
 msgid "Next entry"
-msgstr "Следующая запись"
+msgstr ""
 
 #: loop.php:20
-#, fuzzy
 msgid "Sorry, there is no post yet."
-msgstr "Извините, здесь ещё нет постов."
+msgstr ""
 
-#: loop.php:39 single.php:23
+#: loop.php:41 single.php:25
 msgid "in "
 msgstr ""
 
-#: loop.php:58
-#, fuzzy
+#: loop.php:61
 msgid "Top"
-msgstr "Наверх"
+msgstr ""
 
-#: loop.php:75
-#, fuzzy
+#: loop.php:78
 msgid "Previous entrys"
-msgstr "Предыдущие статьи"
+msgstr ""
 
-#: loop.php:76
-#, fuzzy
+#: loop.php:79
 msgid "Next entrys"
-msgstr "Cледующие статьи"
+msgstr ""
 
 #: search.php:14
-#, fuzzy
 msgid "Search Results for: "
-msgstr "Результаты поиска по запросу:"
+msgstr ""
 
 #: search.php:23
-#, fuzzy
-msgid "Sorry, unfortunately, we could not find the requested querry."
-msgstr "Извините, по вашему запросу ничего не найдено."
+msgid "Sorry, unfortunately, we could not find the requested query."
+msgstr ""
 
 #: search.php:24
-#, fuzzy
 msgid "You should try to find something else"
-msgstr "Может попробуете поискать что-то другое?"
+msgstr ""
 
-#: searchform.php:9 searchform.php:10
-#, fuzzy
+#: searchform.php:9
 msgid "Enter search keyword"
-msgstr "Введите слово или фразу"
+msgstr ""
